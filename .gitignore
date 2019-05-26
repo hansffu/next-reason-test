@@ -5,3 +5,5 @@ lib/
 .bsb.lock
 .idea/
 node_modules
+.next/
+*.iml
