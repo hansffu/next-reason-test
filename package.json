@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "babel-plugin-bucklescript": "^0.5.3",
+    "jest": "^24.8.0",
     "next": "^8.1.0",
     "next-transpile-modules": "2.3.1",
     "react": "^16.8.6",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
+    "@glennsl/bs-jest": "^0.4.8",
     "bs-platform": "5.0.3",
     "concurrently": "^4.1.0"
   }
