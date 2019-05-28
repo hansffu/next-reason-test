@@ -80,3 +80,6 @@ let calculateThrow = (row: row) =>
   | Yahtzee(success) => calculateYahtzee(success)
   | Chance(throw) => calculateChance(throw)
   };
+
+[@react.component]
+let make = () => <div> <Board /> </div>;

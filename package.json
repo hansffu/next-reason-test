@@ -22,7 +22,13 @@
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@glennsl/bs-jest": "^0.4.8",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "bs-platform": "5.0.3",
     "concurrently": "^4.1.0"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "/node_modules/(?!@glennsl/bs-jest|bs-platform).+\\.js$"
+    ]
   }
 }
