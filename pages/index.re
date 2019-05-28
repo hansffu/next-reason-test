@@ -1,6 +1,6 @@
 [@react.component]
 let make = () => {
-  <div> <Board /> </div>;
+  <div> <Yahtzee /> </div>;
 };
 
 let default = make;

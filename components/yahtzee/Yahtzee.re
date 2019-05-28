@@ -82,4 +82,5 @@ let calculateThrow = (row: row) =>
   };
 
 [@react.component]
-let make = () => <div> <Board /> </div>;
+let make = () =>
+  <div> <h3> {ReasonReact.string("Yahtzee")} </h3> <Board /> </div>;
